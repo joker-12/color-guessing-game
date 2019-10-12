@@ -1,0 +1,64 @@
+body{
+    background-color: #232323;
+    margin: 0;
+}
+.square{
+    width: 30%;
+    background-color: purple;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    float: left;
+    border-radius: 15%;
+}
+#container{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+
+
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    
+}
+#stripe{
+    background-color: white;
+    height: 25px;
+    text-align: center;
+    padding: 5px;
+    height: 25px;
+
+}
+.selected{
+    background-color:steelblue;
+    color: white;
+}
+button{
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: steelblue;
+    font-size: inherit;
+    letter-spacing: 1px;
+    transition: all 0.5s
+}
+#displaymessage{
+    display: inline-block;
+    width: 15%;
+}
+button:hover{
+    color: white;
+    background-color: steelblue;
+}
